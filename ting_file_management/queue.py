@@ -18,6 +18,7 @@ class Queue(AbstractQueue):
         """Aqui irá sua implementação"""
         if len(self._data) == 0:
             return None
+        return self._data.pop(0)
 
     def search(self, index):
         """Aqui irá sua implementação"""
